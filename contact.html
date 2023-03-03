@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/contact.css">
+        <title>Contact</title>
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <div class="navbar">
+            <ul>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Menu</a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="about-me.html">About Me</a>
+                        <a href="github.html">GitHub</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- header-->
+
+        <div class="header-container">
+
+        </div>
+
+        <!-- main section -->
+        <div class="main-container">
+            <div class="title">
+                Contact Me
+            </div>
+            <div class="profile-container">
+                <img src="images/IMG_5865.png" alt="profile image" id="profile-img">
+                <div class="name">
+                    <p>
+                        Quinn Polnisch
+                    </p>
+                </div>
+                <div class="email">
+                    <p>
+                        Email: qplnsch@gmail.com
+                    </p>
+                </div>
+                <div class="phone">
+                    <p>
+                        Phone: (310) 897-4283
+                    </p>
+                </div>
+                <div class="location">
+                    <p>
+                        Home Town: Saratoga Springs
+                    </p>
+                </div>
+            </div>
+
+            <!-- contact form -->
+            <div class="form-container">
+                <form action="#" class="contact">
+                    <div class="form-name">
+                        <label for="name">Name:</label>
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Name...">
+                    </div>
+                    <div class="form-phone">
+                        <label for="phone">Phone:</label>
+                        <br>
+                        <input type="tel" name="phone" id="phone" 
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone...">
+                    </div>
+                    <div class="form-email">
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="Email...">
+                    </div>
+                    <div class="form-message">
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" 
+                        placeholder="Message..."></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit" id="submit">
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+    <!-- footer -->
+    
+    <footer>
+        <div>
+            <hr>
+            &copy Quinn Polnisch 2023
+        </div>
+    </footer>
+
+</html>
